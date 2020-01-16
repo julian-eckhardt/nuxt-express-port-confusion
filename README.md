@@ -18,4 +18,5 @@ On a technical level, nuxt should choose a random port under these circumstances
 
 Nuxt reports successful startup of server, but cannot bind to the port.
 The user accesses the port and gets served the content provided by our second express server instead.
-This behaviour is very unfortunate as the bare `Cannot GET /` error message provided by our express app if it does not contain an endpoint for `GET /`
+This behaviour is very unfortunate as the bare `Cannot GET /` error message provided by our express app
+if it does not contain an endpoint for `GET /` is easily misunderstood as a nuxt error.
